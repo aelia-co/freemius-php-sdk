@@ -34,6 +34,8 @@
     if ( ! class_exists( 'Freemius_Api' ) ) {
         class Freemius_Api extends Freemius_Api_Base
         {
+						public $_sandbox;
+
             /**
              * Default options for curl.
              */
